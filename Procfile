@@ -1,1 +1,1 @@
-worker: python -m crushe
+worker: python -m crushe & python hold.py
