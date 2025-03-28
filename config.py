@@ -11,7 +11,7 @@ MONGO_DB = getenv("MONGO_DB", "")
 LOG_GROUP = getenv("LOG_GROUP", "-1002292854905")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002363540243"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "20"))
-PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "5000000000"))
-
+PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500000000000"))
+KOYEB_URL = getenv("KOYEB_URL", "")
 #AutoDeleteTime
 SECONDS = int(getenv("SECONDS", "300")) #5_minutes
